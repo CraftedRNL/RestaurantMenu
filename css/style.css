@@ -2,7 +2,7 @@
 img {
     width: 100%;
 }
-.txt > h1 {
+/* .txt > h1 {
     position: relative;
     align-items: center;
     text-align: center;
@@ -10,11 +10,16 @@ img {
 }
 .txt > img, .overlay-text {
     position: absolute;
-}
+} */
 h1 {
     width: 100%;
     font-size:100px;
+    color: rgb(185, 255, 232);
 
+    text-decoration: wavy;
     display: flex;
     justify-content: center;
+}
+.heading {
+    background-image: url(/img/back.jpg);
 }
