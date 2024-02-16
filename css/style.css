@@ -16,7 +16,7 @@ h1 {
     font-size:100px;
     color: rgb(185, 255, 232);
 
-    text-decoration: wavy;
+    text-decoration: underline;
     display: flex;
     justify-content: center;
 }
