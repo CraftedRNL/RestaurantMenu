@@ -2,26 +2,17 @@
 img {
     width: 100%;
 }
-/* .txt > h1 {
-    position: relative;
-    align-items: center;
-    text-align: center;
-   
-}
-.txt > img, .overlay-text {
-    position: absolute;
-} */
 h1 {
     width: 100%;
     font-size:100px;
     color: rgb(0, 0, 0);
-
+    text-shadow: rgb(160, 158, 158) 5px 0 10px;
     text-decoration: underline;
     display: flex;
     justify-content: center;
 }
 .heading {
-    background-image: url(/img/wood.jpg);
+    background-image: url(/img/sky.jpg);
 }
 .container {
     background-color: aquamarine;
@@ -29,7 +20,7 @@ h1 {
 }
 
 .fud {
-    background-image: url(/img/back.jpg);
+    background-image: url(/img/dirt.avif);
     border: 2px black solid;
 }
 .stars {
@@ -39,15 +30,40 @@ h1 {
 .small {
     width: 100%;
     font-size:75px;
-    color: rgb(202, 253, 255);
+    color: rgb(249, 250, 250);
+    text-shadow: rgb(0, 0, 0) 5px 0 10px;
     text-decoration: underline;
     display: flex;
+    
     justify-content: center;
 }
 .col {
-    border: 1px black solid;
+    border: 2px black double;
+    
 }
 .cross {
     width: 100%;
     background-image: url(/img/blck.jpg);
+}
+.ocean {
+    background-image: url(/img/ocean.jpg);
+}
+.food {
+    background-image: url(/img/food.jpg);
+    height: 150px;
+}
+.txt {
+    visibility: hidden;
+}
+body {
+    background: linear-gradient(#c1ffae,#d5fdfb);
+}
+.space {
+    background-image: url(/img/space.jpg);
+}
+.special {
+    text-shadow: #FC0 1px 0 10px;
+}
+.block {
+    display: block;
 }
