@@ -1,6 +1,7 @@
 
 img {
     width: 100%;
+    padding: 0px;
 }
 h1 {
     width: 100%;
@@ -13,6 +14,7 @@ h1 {
 }
 .heading {
     background-image: url(/img/sky.jpg);
+    border: 2px black solid;
 }
 .container {
     background-color: aquamarine;
@@ -39,17 +41,14 @@ h1 {
 }
 .col {
     border: 2px black double;
-    
+    background: radial-gradient(#f7e29e,#d5f39d);
 }
-.cross {
-    width: 100%;
-    background-image: url(/img/blck.jpg);
-}
+
 .ocean {
     background-image: url(/img/ocean.jpg);
 }
 .food {
-    background-image: url(/img/food.jpg);
+    background-image: url(/img/fields.webp);
     height: 150px;
 }
 .txt {
@@ -64,6 +63,6 @@ body {
 .special {
     text-shadow: #FC0 1px 0 10px;
 }
-.block {
-    display: block;
+.cross {
+    background-image: url(/img/water.avif);
 }
