@@ -13,7 +13,7 @@ h1 {
     justify-content: center;
 }
 .heading {
-    background-image: url(../img/sky.jpg);
+    background-image: url('../img/sky.jpg');
     border: 2px black solid;
 }
 .container {
@@ -22,11 +22,11 @@ h1 {
 }
 
 .fud {
-    background-image: url(../img/dirt.avif);
+    background-image: url('../img/dirt.avif');
     border: 2px black solid;
 }
 .stars {
-    background-image: url(../img/stars.jpg);
+    background-image: url('../img/stars.jpg');
     border: 2px black solid;
 }
 .small {
@@ -45,10 +45,10 @@ h1 {
 }
 
 .ocean {
-    background-image: url(../img/ocean.jpg);
+    background-image: url('../img/ocean.jpg');
 }
 .food {
-    background-image: url(../img/fields.webp);
+    background-image: url('../img/fields.webp');
     
 }
 .txt {
@@ -58,13 +58,13 @@ body {
     background: linear-gradient(#c1ffae,#d5fdfb);
 }
 .space {
-    background-image: url(../img/space.jpg);
+    background-image: url('../img/space.jpg');
 }
 .special {
     text-shadow: #FC0 1px 0 10px;
 }
 .cross {
-    background-image: url(../img/water.avif);
+    background-image: url('../img/water.avif');
 }
 .mt-6 {
     margin-top: 100px;
